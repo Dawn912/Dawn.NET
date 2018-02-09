@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dawn.Extensions
+namespace Dawn.Extensions.Numeric
 {
     public static class NumericExts
     {

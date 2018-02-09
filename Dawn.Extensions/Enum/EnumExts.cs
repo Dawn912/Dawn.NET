@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dawn.Extensions
+namespace Dawn.Extensions.Enum
 {
     public static class EnumExts
     {
