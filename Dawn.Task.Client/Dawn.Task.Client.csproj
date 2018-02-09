@@ -42,17 +42,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MethodExecutor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Log4Net.config" />
+    <None Include="Log4Net.Release.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dawn.Task.Core\Dawn.Task.Core.csproj">
       <Project>{7770ce8b-45ac-4204-988c-c193c26e0d04}</Project>
       <Name>Dawn.Task.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Module\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
