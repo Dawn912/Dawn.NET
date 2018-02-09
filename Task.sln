@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn.Task.Client", "Dawn.Task.Client\Dawn.Task.Client.csproj", "{15733242-7A2B-4F10-BAFB-5BE3FD899CB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn.Task.Core", "Dawn.Task.Core\Dawn.Task.Core.csproj", "{7770CE8B-45AC-4204-988C-C193C26E0D04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15733242-7A2B-4F10-BAFB-5BE3FD899CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15733242-7A2B-4F10-BAFB-5BE3FD899CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15733242-7A2B-4F10-BAFB-5BE3FD899CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15733242-7A2B-4F10-BAFB-5BE3FD899CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7770CE8B-45AC-4204-988C-C193C26E0D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7770CE8B-45AC-4204-988C-C193C26E0D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7770CE8B-45AC-4204-988C-C193C26E0D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7770CE8B-45AC-4204-988C-C193C26E0D04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
