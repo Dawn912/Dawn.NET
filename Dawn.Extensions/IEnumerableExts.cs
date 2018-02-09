@@ -32,5 +32,26 @@ namespace Dawn.Extensions
             }
             return source;
         }
+
+        public static Dictionary<TKey, TSource> GroupToDictionary<TSource, TKey>(this IEnumerable<TSource> source
+            , Func<TSource, TKey> keySelector
+            , Func<IGrouping<TKey, TSource>, IOrderedEnumerable<TSource>> orderBy)
+        {
+            Dictionary<TKey, TSource> dic = source
+                .GroupBy(keySelector)
+                .Select(g =>
+                {
+                    if (orderBy != null)
+                    {
+                        return orderBy(g).First();
+                    }
+                    else
+                    {
+                        return g.First();
+                    }
+                })
+                .ToDictionary(keySelector);
+            return dic;
+        }
     }
 }
