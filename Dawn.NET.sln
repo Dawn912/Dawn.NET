@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn.Extensions", "Dawn.Extensions\Dawn.Extensions.csproj", "{5211C46D-90A9-49F0-950A-F33D7BDB99F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{04BCF787-3B44-48F5-9454-AF7314A7443D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn.Utils", "Dawn.Utils\Dawn.Utils.csproj", "{127910FE-2DEA-4D9F-AC7B-3733B6318286}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5211C46D-90A9-49F0-950A-F33D7BDB99F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5211C46D-90A9-49F0-950A-F33D7BDB99F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5211C46D-90A9-49F0-950A-F33D7BDB99F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5211C46D-90A9-49F0-950A-F33D7BDB99F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BCF787-3B44-48F5-9454-AF7314A7443D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BCF787-3B44-48F5-9454-AF7314A7443D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BCF787-3B44-48F5-9454-AF7314A7443D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BCF787-3B44-48F5-9454-AF7314A7443D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127910FE-2DEA-4D9F-AC7B-3733B6318286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127910FE-2DEA-4D9F-AC7B-3733B6318286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127910FE-2DEA-4D9F-AC7B-3733B6318286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127910FE-2DEA-4D9F-AC7B-3733B6318286}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

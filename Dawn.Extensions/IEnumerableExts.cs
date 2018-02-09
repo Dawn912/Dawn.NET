@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Dawn.Extensions
+{
+    public static class IEnumerableExts
+    {
+        /// <summary>
+        /// 指示集合不为null，并且包含至少一个以上的元素。
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="source"></param>
+        /// <returns></returns>
+        public static bool IsNotEmpty<T>(this IEnumerable<T> source)
+        {
+            return source != null && source.Any();
+        }
+        /// <summary>
+        /// 当序列为null时，返回空元素序列
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="source"></param>
+        /// <returns></returns>
+        public static IEnumerable<T> EmptyIfNull<T>(this IEnumerable<T> source)
+        {
+            if (source == null)
+            {
+                return Enumerable.Empty<T>();
+            }
+            return source;
+        }
+    }
+}
