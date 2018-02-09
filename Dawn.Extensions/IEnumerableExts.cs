@@ -14,7 +14,7 @@ namespace Dawn.Extensions
         /// <typeparam name="T"></typeparam>
         /// <param name="source"></param>
         /// <returns></returns>
-        public static bool IsNotEmpty<T>(this IEnumerable<T> source)
+        public static bool NotEmpty<T>(this IEnumerable<T> source)
         {
             return source != null && source.Any();
         }
