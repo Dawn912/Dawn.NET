@@ -24,13 +24,13 @@ namespace Dawn.Extensions.Linq
         /// <typeparam name="T"></typeparam>
         /// <param name="source"></param>
         /// <returns></returns>
-        public static IEnumerable<T> EmptyIfNull<T>(this IEnumerable<T> source)
+        public static List<T> EmptyIfNull<T>(this IEnumerable<T> source)
         {
             if (source == null)
             {
-                return Enumerable.Empty<T>();
+                source = Enumerable.Empty<T>();
             }
-            return source;
+            return source.ToList();
         }
 
         public static Dictionary<TKey, TSource> GroupToDictionary<TSource, TKey>(this IEnumerable<TSource> source
