@@ -12,7 +12,7 @@ namespace Dawn.Utils.Configuration
     {
         public static string Get(string key)
         {
-            return ConfigurationManager.AppSettings[key];
+            return ConfigurationManager.AppSettings[key] ?? String.Empty;
         }
         public static T GetValue<T>(string key)
         {
