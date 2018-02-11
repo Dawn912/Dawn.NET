@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Configuration;
+using AutoMapper;
 
 namespace Dawn.Utils.Configuration
 {
@@ -19,8 +20,17 @@ namespace Dawn.Utils.Configuration
         }
         public static T GetValue<T>(string key, T defaultValue)
         {
-            string str = ConfigurationManager.AppSettings[key];
-            throw new NotImplementedException();
+            T obj;
+            string str = Get(key);
+            try
+            {
+                obj = Mapper.Map<T>(str);
+            }
+            catch (AutoMapperMappingException)
+            {
+                obj = defaultValue;
+            }
+            return obj;
         }
     }
 }
