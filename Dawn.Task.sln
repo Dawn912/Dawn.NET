@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn.Task.Client", "Dawn.Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn.Task.Core", "Dawn.Task.Core\Dawn.Task.Core.csproj", "{7770CE8B-45AC-4204-988C-C193C26E0D04}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dawn", "Dawn", "{16E1D298-CCF6-449E-B03F-A7269D47A2A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn.Utils", "Dawn.Utils\Dawn.Utils.csproj", "{127910FE-2DEA-4D9F-AC7B-3733B6318286}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +25,15 @@ Global
 		{7770CE8B-45AC-4204-988C-C193C26E0D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7770CE8B-45AC-4204-988C-C193C26E0D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7770CE8B-45AC-4204-988C-C193C26E0D04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127910FE-2DEA-4D9F-AC7B-3733B6318286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127910FE-2DEA-4D9F-AC7B-3733B6318286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127910FE-2DEA-4D9F-AC7B-3733B6318286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127910FE-2DEA-4D9F-AC7B-3733B6318286}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{127910FE-2DEA-4D9F-AC7B-3733B6318286} = {16E1D298-CCF6-449E-B03F-A7269D47A2A7}
 	EndGlobalSection
 EndGlobal

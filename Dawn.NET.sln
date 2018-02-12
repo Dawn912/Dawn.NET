@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn.Utils", "Dawn.Utils\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn.Task.Core", "Dawn.Task.Core\Dawn.Task.Core.csproj", "{7770CE8B-45AC-4204-988C-C193C26E0D04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn.Task.Client", "Dawn.Task.Client\Dawn.Task.Client.csproj", "{15733242-7A2B-4F10-BAFB-5BE3FD899CB4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn.WebAPI.Core", "Dawn.WebAPI.Core\Dawn.WebAPI.Core.csproj", "{A29F7198-13A1-43E1-B46D-BCDAE67364A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn.Entity", "Dawn.Entity\Dawn.Entity.csproj", "{A36E7F6D-5EBE-4D44-B5DC-DE7E9995745F}"
@@ -39,10 +37,6 @@ Global
 		{7770CE8B-45AC-4204-988C-C193C26E0D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7770CE8B-45AC-4204-988C-C193C26E0D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7770CE8B-45AC-4204-988C-C193C26E0D04}.Release|Any CPU.Build.0 = Release|Any CPU
-		{15733242-7A2B-4F10-BAFB-5BE3FD899CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{15733242-7A2B-4F10-BAFB-5BE3FD899CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{15733242-7A2B-4F10-BAFB-5BE3FD899CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{15733242-7A2B-4F10-BAFB-5BE3FD899CB4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A29F7198-13A1-43E1-B46D-BCDAE67364A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A29F7198-13A1-43E1-B46D-BCDAE67364A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A29F7198-13A1-43E1-B46D-BCDAE67364A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
