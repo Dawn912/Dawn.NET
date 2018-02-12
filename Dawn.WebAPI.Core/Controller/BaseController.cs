@@ -68,22 +68,5 @@ namespace Dawn.WebAPI.Core.Controller
             }
             return result;
         }
-
-        /* PairResult<T>
-        protected virtual ActionInfo<T> PairResult<T>(Dawn.Entity.Api.CodeValuePair<T> pair)
-        {
-            var result = ActionInfo<T>.EmptyResult();
-            if (pair.Code == 0)
-            {
-                result = ActionInfo<T>.SingleResult(pair.Value);
-            }
-            else
-            {
-                result.returncode = pair.Code;
-                result.message = pair.Message;
-            }
-            return result;
-        }
-        */
     }
 }
