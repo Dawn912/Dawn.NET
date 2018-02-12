@@ -61,7 +61,7 @@
     <Compile Include="Attribute\ApplicationIdAttribute.cs" />
     <Compile Include="Attribute\ExceptionAttribute.cs" />
     <Compile Include="Attribute\PostActionAttribute.cs" />
-    <Compile Include="BaseController.cs" />
+    <Compile Include="Controller\BaseController.cs" />
     <Compile Include="Config\JsonContentNegotiator.cs" />
     <Compile Include="Contracts\ActionInfo.cs" />
     <Compile Include="Filter\JsonpActionFilter.cs" />

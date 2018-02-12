@@ -1,6 +1,7 @@
 ﻿using Dawn.WebAPI.Core;
 using Dawn.WebAPI.Core.Attribute;
 using Dawn.WebAPI.Core.Contracts;
+using Dawn.WebAPI.Core.Controller;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -9,7 +9,7 @@ using Dawn.WebAPI.Core.Helper;
 using Dawn.Utils.Log;
 using Dawn.WebAPI.Core.Contracts;
 
-namespace Dawn.WebAPI.Core
+namespace Dawn.WebAPI.Core.Controller
 {
     public abstract class BaseController : ApiController
     {
